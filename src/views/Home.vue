@@ -1,6 +1,12 @@
 <template>
   <div class="home">
     <Header />
+    <div  id="nav">
+      <a v-scroll-to="'#Experience'">Experience</a>
+      <a v-scroll-to="'#skillsy'">Skills</a>
+      <a v-scroll-to="'#Education'">Education</a>
+      <a v-scroll-to="'#Communication'">Communication</a>
+    </div>
     <Experience />
     <Skills />
     <Education />
@@ -41,10 +47,6 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
   }
-  .home > div{
-    margin: 2em 0;
-  }
-
   /* styles */
   img{
     max-width: 100vw;

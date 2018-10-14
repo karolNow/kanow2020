@@ -1,5 +1,5 @@
 <template>
-  <div class="passions">
+  <div class="passions" id="passions">
     <h1><span>Passions</span></h1>
     <div class="Pas">
 

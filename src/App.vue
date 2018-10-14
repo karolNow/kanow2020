@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
     <router-view/>
   </div>
 </template>
@@ -23,8 +19,7 @@ body{
   color: #2c3e50;
   h1{
     font-weight: 400;
-  }
-  h1{
+    margin: 1em 0;
     color: $KN-col;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background-image:linear-gradient(transparent 50%, $KN-col 54%, transparent 56%);
@@ -35,10 +30,18 @@ body{
   }
 }
 #nav {
-  padding: 30px;
+  padding: 15px;
+  background-color: $KN-col;
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    font-size: 1.5em;
+    padding: 0 2em;
+    font-weight: 400;
+    color: white;
+    cursor: pointer !important;
+    &:hover{
+      cursor: pointer !important;
+      font-weight: bold;
+    }
     &.router-link-exact-active {
       color: #42b983;
     }

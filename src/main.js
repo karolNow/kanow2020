@@ -15,8 +15,8 @@ Vue.use(vueScrollto, {
      onDone: false,
      onCancel: false,
      x: false,
-     y: true
- })
+     y: true,
+ });
 Vue.config.productionTip = false;
 
 new Vue({

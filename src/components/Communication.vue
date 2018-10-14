@@ -1,9 +1,8 @@
 <template>
-<div class="Comunnication">
-<h1><span>Communication </span></h1>
-<h2>Languages:</h2>
-<p>Polish</p>
-<p>English B2/C1</p>
+<div class="Comunnication" id="Communication">
+<h1><span>Languages</span></h1>
+<h2>Polish: mother language</h2>
+<h2>English: B2/C1</h2>
 </div>
 </template>
 
@@ -19,6 +18,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 $KN-col: #2E3192;
+h2{
+  font-weight: 400;
+}
 h3 {
   margin: 40px 0 0;
 }

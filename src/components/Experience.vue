@@ -1,5 +1,5 @@
 <template>
-<div class="Experience">
+<div class="Experience" id="Experience">
   <h1><span>Experience</span></h1>
 
   <div class="firma f-name">
@@ -145,6 +145,8 @@ grid-template-areas:
 }
 .descryption{
   h1{
+    font-weight: bold !important;
+    text-transform: uppercase;
     font-size: 1.6em;
     padding: 0px !important;
     text-align: left !important;
@@ -152,12 +154,12 @@ grid-template-areas:
   h2{
     color:$KN-col;
     padding: 6px;
+    font-weight: 400;
   }
 }
 .title{
   h1{
     font-size: 1.6em;
-    font-weight: bold;
   }
 }
 .project{

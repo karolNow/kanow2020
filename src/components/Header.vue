@@ -1,6 +1,7 @@
 <template>
   <div class="Head">
     <h1>Karol Nowak</h1>
+    <h2>CURRICULUM VITAE</h2>
 
   </div>
 </template>
@@ -23,7 +24,7 @@ $KN-col: #2E3192;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 0 2em 0;
+  //margin: 0 0 2em 0;
 }
 h1 {
   font-family: 'Roboto', sans-serif;
