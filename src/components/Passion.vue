@@ -24,6 +24,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$KN-col: #2E3192;
 .passions{
   background-image:url('../assets/PASSION.png');
   background-repeat: no-repeat;
@@ -33,6 +34,13 @@ export default {
 .Pas{
   display: flex;
   justify-content: center;
+}
+h1{
+  background-image:linear-gradient(transparent 85%, $KN-col 87%, transparent 90%) !important;
+  span{
+    padding: 0 !important;
+    background-color: transparent !important;
+  }
 }
 h3 {
   margin: 40px 0 0;
@@ -47,6 +55,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: $KN-col;
 }
 </style>

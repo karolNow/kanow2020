@@ -16,15 +16,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$KN-col: #2E3192;
 .Head{
-  padding: 10em 0;
+  padding: 5em 0;
   background-image: url('../assets/KN_HEAD.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 0 2em 0;
 }
-h3 {
-  margin: 40px 0 0;
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  opacity: 0.6;
+  font-size: 7em;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  background-image:none !important;
 }
 ul {
   list-style-type: none;
@@ -35,6 +43,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: $KN-col;
 }
 </style>

@@ -9,11 +9,14 @@
 </template>
 
 <style lang="scss">
+$KN-col: #2E3192;
 body{
   margin: 0px;
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 #app {
-  font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -22,7 +25,8 @@ body{
     font-weight: 400;
   }
   h1{
-    background-image:linear-gradient(transparent 50%, black 54%, transparent 56%);
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    background-image:linear-gradient(transparent 50%, $KN-col 54%, transparent 56%);
     span{
       padding: 1em;
       background-color: white;
@@ -39,4 +43,6 @@ body{
     }
   }
 }
+
+
 </style>

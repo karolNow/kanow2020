@@ -10,39 +10,48 @@
       <div class="descryption">
       <h1>Agencja Gordo Piotr Wojcicki </h1>
       <div class="project">
-      <h2>Yohohama.pl</h2>
+      <h2><a href="http://www.yokohama.pl" target="_blank">Yohohama.pl</a></h2>
       <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
+        <li>+ Website design / <a href="#photoshop"> ADOBE XD</a></li>
+        <li>+ Ajustment CMS architecture / <a href="#wordpress">WORDPRESS</a> </li>
+        <li>+ Wordpress template development /  <a href="#php">PHP</a> <a href="#html">HTML</a> <a href="#sass">SASS</a> <a href="#js">JS</a></li>
+        <li>+ Google analitics setup</li>
+        <li>+ Third party solutions setup</li>
+        <li>+ Participation in meetings with client</li>
       </ul>
       </div>
       <div class="project">
-      <h2>YTo jest to </h2>
+      <h2><a href="http://www.maglekam.pl" target="_blank">Maglekam.pl</a></h2>
       <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
+        <li>+ Ajustment CMS architecture / <a href="#">WORDPRESS</a></li>
+        <li>+ Wordpress template development / <a href="#php">PHP</a> <a href="#html">HTML</a> <a href="#sass">SASS</a> <a href="#js">JS</a></li>
+        <li>+ Google analitics setup</li>
+        <li>+ Third party solutions setup</li>
+      </ul>
+      </div>
+      <div class="project orcla">
+      <div class="sites">
+      <h2><a href="http://mollers.pl" target="_blank">Mollers.pl</a></h2>
+      <h2><a href="http://www.colonc.pl" target="_blank">Colonc.pl</a></h2>
+      <h2><a href="http://www.kalms.pl" target="_blank">Kalms.pl</a></h2>
+      <h2><a href="http://www.litozin.pl" target="_blank">Litozin.pl</a></h2>
+      <h2><a href="http://www.wszystkoobliznach.pl" target="_blank">Wszystkooblinznach.pl</a></h2>
+    </div>
+      <ul>
+        <li>+ Websites administration / <a href="#wordpress">WORDPRESS</a></li>
+        <li>+ Applying all necessary changes on client demand</li>
+        <li>+ Rebuilding actual templates for new subpages</li>
       </ul>
       </div>
       <div class="project">
-      <h2>Yohohama.pl</h2>
+      <h2>Rossmann richcontent</h2>
       <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>Yohohama.pl</h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
+        <li>+ Development of richcontetemplatesnt  for brands at rossmann webesite/ <a href="#html">HTML</a> <a href="#sass">SASS</a> <a href="#js">JS</a></li>
       </ul>
       </div>
     </div>
   </div>
+  <hr>
   <div class="firma f-name">
     <div class="title">
       <h1>CO-FOUNDER  & DESIGNER</h1>
@@ -51,76 +60,31 @@
       <div class="descryption">
       <h1> SUM ARCHITEKCI KRAJOBRAZU SP. Z O.O. </h1>
       <div class="project">
-      <h2>Yohohama.pl</h2>
       <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>YTo jest to </h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>Yohohama.pl</h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>Yohohama.pl</h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
+        <li>+	Company website development </li>
+        <li> +	Implementation of the WordPress </li>
+        <li>  +	Analysis with google analytics, hotjar along with administration of the website;</li>
+        <li>+	Development of graphic designs for the website;</li>
+        <li>+	Design & Project management in landscape architecture field</li>
       </ul>
       </div>
     </div>
   </div>
+  <hr>
   <div class="firma f-name">
     <div class="title">
       <h1>DESIGNER</h1>
       <h2>2014 -2016</h2>
     </div>
       <div class="descryption">
-      <h1>IN & OUT ARCHITEKCI KRAJOBRAZU -  </h1>
+      <h1>IN & OUT ARCHITEKCI KRAJOBRAZU</h1>
       <div class="project">
       <h2>Yohohama.pl</h2>
       <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>YTo jest to </h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>Yohohama.pl</h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
-      </ul>
-      </div>
-      <div class="project">
-      <h2>Yohohama.pl</h2>
-      <ul>
-        <li>Design of website</li>
-        <li>Front development</li>
-        <li>Wordpress tempalate design and development myscl</li>
+<li>+	Design of landscape architecture </li>
+<li>+	Maintenance practices and technical specifications development ;</li>
+<li>+	Investment costs execution </li>
+<li>+	Graphic designs in form of: visualizations, posters and multimedia presentations.</li>
       </ul>
       </div>
     </div>
@@ -139,6 +103,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+$KN-col: #2E3192;
 /* GRID */
 .firma{
 display: grid;
@@ -146,6 +111,15 @@ grid-template-columns: 2fr 7fr;
 grid-template-areas:
 'ftitle fdesc'
 'fdate fdesc'
+}
+.sites{
+  display: flex;
+  h2:first-child{
+    margin: 0 1em 0 0;
+  }
+  h2{
+    margin: 0 1em;
+  }
 }
 .title{
   grid-area: ftitle
@@ -161,12 +135,23 @@ grid-template-areas:
 /*  */
 .firma{
   h1{
+    padding: 0 1.6em;
     text-align: center;
     background-image: none !important;
     span{
       padding: 1em;
       background-color: white;
     }
+  }
+}
+.descryption{
+  h1{
+    padding: 0px !important;
+    text-align: left !important;
+  }
+  h2{
+    color:$KN-col;
+    padding: 6px;
   }
 }
 .project{
@@ -181,11 +166,27 @@ ul {
   padding: 0;
 }
 li {
+  line-height: 1.6em;
+  font-size: 1.2em;
   text-align: left;
   display: block;
   margin: 0 10px;
+  a{
+    padding:2px;
+  }
 }
 a {
-  color: #42b983;
+  transition: 0.2s ease-in-out ;
+  padding: 6px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  text-decoration: none;
+  color: $KN-col;
+  &:hover{
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+      border: 1px solid $KN-col;
+      border-radius: 25px
+  }
 }
 </style>

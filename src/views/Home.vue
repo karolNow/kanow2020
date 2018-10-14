@@ -6,7 +6,6 @@
     <Education />
     <Communication />
     <Passion/>
-    <Footer />
   </div>
 </template>
 
@@ -35,10 +34,14 @@ export default {
 </script>
 
 <style scoped media="screen 1440">
+
   /* grid */
   .home{
   display: grid;
   grid-template-columns: 1fr;
+  }
+  .home > div{
+    margin: 2em 0;
   }
 
   /* styles */
