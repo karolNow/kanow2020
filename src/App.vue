@@ -25,6 +25,7 @@ body{
     font-weight: 400;
   }
   h1{
+    color: $KN-col;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background-image:linear-gradient(transparent 50%, $KN-col 54%, transparent 56%);
     span{

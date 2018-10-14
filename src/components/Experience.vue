@@ -8,13 +8,13 @@
       <h2>2018 acctual</h2>
     </div>
       <div class="descryption">
-      <h1>Agencja Gordo Piotr Wojcicki </h1>
+      <h1>Agencja Gordo Piotr Wójcicki </h1>
       <div class="project">
       <h2><a href="http://www.yokohama.pl" target="_blank">Yohohama.pl</a></h2>
       <ul>
-        <li>+ Website design / <a href="#photoshop"> ADOBE XD</a></li>
-        <li>+ Ajustment CMS architecture / <a href="#wordpress">WORDPRESS</a> </li>
-        <li>+ Wordpress template development /  <a href="#php">PHP</a> <a href="#html">HTML</a> <a href="#sass">SASS</a> <a href="#js">JS</a></li>
+        <li>+ Website design / <a  v-scroll-to="'#adobe'"> ADOBE XD</a></li>
+        <li>+ Ajustment CMS architecture / <a v-scroll-to="'#wordpress'">WORDPRESS</a> </li>
+        <li>+ Wordpress template development /  <a v-scroll-to="'#php'">PHP</a> <a v-scroll-to="'#html'">HTML</a> <a v-scroll-to="'#sass'">SASS</a> <a v-scroll-to="'#js'">JS</a></li>
         <li>+ Google analitics setup</li>
         <li>+ Third party solutions setup</li>
         <li>+ Participation in meetings with client</li>
@@ -23,8 +23,8 @@
       <div class="project">
       <h2><a href="http://www.maglekam.pl" target="_blank">Maglekam.pl</a></h2>
       <ul>
-        <li>+ Ajustment CMS architecture / <a href="#">WORDPRESS</a></li>
-        <li>+ Wordpress template development / <a href="#php">PHP</a> <a href="#html">HTML</a> <a href="#sass">SASS</a> <a href="#js">JS</a></li>
+        <li>+ Ajustment CMS architecture / <a v-scroll-to="'#wordpress'">WORDPRESS</a> </li>
+        <li>+ Wordpress template development / <a v-scroll-to="'#php'">PHP</a> <a v-scroll-to="'#html'">HTML</a> <a v-scroll-to="'#sass'">SASS</a> <a v-scroll-to="'#js'">JS</a></li>
         <li>+ Google analitics setup</li>
         <li>+ Third party solutions setup</li>
       </ul>
@@ -38,7 +38,7 @@
       <h2><a href="http://www.wszystkoobliznach.pl" target="_blank">Wszystkooblinznach.pl</a></h2>
     </div>
       <ul>
-        <li>+ Websites administration / <a href="#wordpress">WORDPRESS</a></li>
+        <li>+ Websites administration / <a v-scroll-to="'#wordpress'">WORDPRESS</a> </li>
         <li>+ Applying all necessary changes on client demand</li>
         <li>+ Rebuilding actual templates for new subpages</li>
       </ul>
@@ -46,7 +46,7 @@
       <div class="project">
       <h2>Rossmann richcontent</h2>
       <ul>
-        <li>+ Development of richcontetemplatesnt  for brands at rossmann webesite/ <a href="#html">HTML</a> <a href="#sass">SASS</a> <a href="#js">JS</a></li>
+        <li>+ Development of richcontent templates for brands at rossmann website/ <a v-scroll-to="'#html'">HTML</a> <a v-scroll-to="'#sass'">SASS</a> <a v-scroll-to="'#js'">JS</a></li>
       </ul>
       </div>
     </div>
@@ -62,9 +62,9 @@
       <div class="project">
       <ul>
         <li>+	Company website development </li>
-        <li> +	Implementation of the WordPress </li>
-        <li>  +	Analysis with google analytics, hotjar along with administration of the website;</li>
-        <li>+	Development of graphic designs for the website;</li>
+        <li>+ Implementation the WordPress / <a v-scroll-to="'#wordpress'">WORDPRESS</a> </li>
+        <li>+	Google analytics, hotjar along with administration of the website</li>
+        <li>+	Development of graphic designs for the website/ <a  v-scroll-to="'#adobe'"> PHOTOSHOP</a></li>
         <li>+	Design & Project management in landscape architecture field</li>
       </ul>
       </div>
@@ -79,12 +79,11 @@
       <div class="descryption">
       <h1>IN & OUT ARCHITEKCI KRAJOBRAZU</h1>
       <div class="project">
-      <h2>Yohohama.pl</h2>
       <ul>
-<li>+	Design of landscape architecture </li>
-<li>+	Maintenance practices and technical specifications development ;</li>
-<li>+	Investment costs execution </li>
-<li>+	Graphic designs in form of: visualizations, posters and multimedia presentations.</li>
+        <li>+	Design in landscape architecture </li>
+        <li>+	Maintenance practices and technical specifications development</li>
+        <li>+	Investment costs execution </li>
+        <li>+	Graphic designs in form of: visualizations, posters and multimedia presentations/ <a  v-scroll-to="'#adobe'"> PHOTOSHOP</a></li>
       </ul>
       </div>
     </div>
@@ -146,12 +145,19 @@ grid-template-areas:
 }
 .descryption{
   h1{
+    font-size: 1.6em;
     padding: 0px !important;
     text-align: left !important;
   }
   h2{
     color:$KN-col;
     padding: 6px;
+  }
+}
+.title{
+  h1{
+    font-size: 1.6em;
+    font-weight: bold;
   }
 }
 .project{

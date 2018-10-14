@@ -4,10 +4,10 @@
     <div class="Pas">
 
     <ul>
-      <li>Travels</li>
-      <li>New technologies</li>
-      <li>Photography Music Movies</li>
-      <li>Sports:Sailing Cycling Skiing</li>
+      <li>+ Travels</li>
+      <li>+ New technologies</li>
+      <li>+ Photography Music Movies</li>
+      <li>+ Sports:Sailing Cycling Skiing</li>
     </ul>
   </div>
 </div>
@@ -50,6 +50,8 @@ ul {
   padding: 0;
 }
 li {
+  font-size: 1.3em;
+  line-height: 1.6em;
   text-align: left;
   display: block;
   margin: 0 10px;
