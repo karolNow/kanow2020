@@ -4,5 +4,5 @@
 
 ###please consider to contact me at:
 
-**[hello@kanow.pl](hello@kanow.pl)**
-**[508592222](508592222)**
+**[hello@kanow.pl](mailto:hello@kanow.pl)**
+**[508592222](tel:508592222)**
