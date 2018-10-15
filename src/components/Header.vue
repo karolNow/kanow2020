@@ -57,6 +57,7 @@ p{
 }
 .links{
 a {
+  cursor: pointer;
   transition: 0.3s ease;
   text-decoration: none;
   color: $KN-col;

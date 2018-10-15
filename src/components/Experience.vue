@@ -180,6 +180,7 @@ li {
   display: block;
   margin: 0 10px;
   a{
+    cursor: pointer;
     padding:2px;
   }
 }
