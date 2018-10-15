@@ -27,7 +27,7 @@ export default {
 $KN-col: #2E3192;
 .Head{
   padding: 5em 5em;
-  background-image: url('../assets/KN_HEAD.png');
+  background-image: url('../assets/KN_HEAD.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
