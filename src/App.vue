@@ -20,7 +20,7 @@ body{
   h1{
     font-weight: 400;
     margin: 1em 0;
-    color: $KN-col;
+    // color: $KN-col;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background-image:linear-gradient(transparent 50%, $KN-col 54%, transparent 56%);
     span{
@@ -32,14 +32,13 @@ body{
 #nav {
   padding: 15px;
   background-color: $KN-col;
+  opacity: 0.8;
   a {
     font-size: 1.5em;
     padding: 0 2em;
     font-weight: 400;
     color: white;
-    cursor: pointer !important;
     &:hover{
-      cursor: pointer !important;
       font-weight: bold;
     }
     &.router-link-exact-active {
