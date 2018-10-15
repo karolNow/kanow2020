@@ -27,6 +27,9 @@ body{
       padding: 1em;
       background-color: white;
     }
+    a{
+      cursor: pointer;
+    }
   }
 }
 #nav {
