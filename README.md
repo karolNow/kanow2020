@@ -1,6 +1,6 @@
-# Cape-Morris CV project
+# CV project
 
-## This is cv for cape morris agency created in Vue.js
+## This is cv created in Vue.js
 
 
 ### please consider to contact me at:
