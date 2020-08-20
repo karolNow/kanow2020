@@ -1,7 +1,4 @@
-# CV project
-
-## This is cv created in Vue.js
-
+# CV project 
 
 ### please consider to contact me at:
 
