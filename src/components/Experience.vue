@@ -8,7 +8,7 @@
       <h2>2018 acctual</h2>
     </div>
       <div class="descryption">
-      <h1>Agencja Gordo Piotr Wójcicki </h1>
+      <h1>Agencja Gordo</h1>
       <div class="project">
       <h2><a href="http://www.yokohama.pl" target="_blank">Yohohama.pl</a></h2>
       <ul>

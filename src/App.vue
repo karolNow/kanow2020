@@ -33,6 +33,7 @@ body{
   }
 }
 #nav {
+  position: fixed;
   padding: 15px;
   background-color: $KN-col;
   opacity: 0.8;
