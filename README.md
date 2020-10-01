@@ -1,4 +1,4 @@
-# CV project 
+# Portfolio project 
 
 ### please consider to contact me at:
 
