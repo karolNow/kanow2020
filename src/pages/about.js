@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import KnHead from  '../images/KN_HEAD.jpg'
+import Menu from '../components/GoBackMenu'
 
 
 import Layout from "../components/layout"
@@ -26,7 +27,7 @@ const SecondPage = () => (
                 między innymi z:
                 MNW, Ambasadą Niemiec w Warszawie, Fundacją Bęc Zmiana, Fundacją Puszka.
               </p>
-    <Link to="/">Go back to the homepage</Link>
+    <Menu />
   </Layout>
 )
 

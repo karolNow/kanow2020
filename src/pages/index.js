@@ -66,10 +66,10 @@ const Circle = styled.section`
  text-align:center;
  min-width:170px;
  min-height:170px;
- max-width:240px;
- max-height:240px;
- width:15vw;
- height:15vw;
+ max-width:400px;
+ max-height:400px;
+ width:25vw;
+ height:25vw;
  background: radial-gradient(black 60%, transparent 70%, transparent 100%);
  border: solid 1px transparent;
  border-radius: 100%;
@@ -79,15 +79,59 @@ const Circle = styled.section`
    box-shadow: none;
  }
 `
+const But = styled.button`
+  border:solid 3px black;
+  border-radius: 0;
+  position:relative;
+  display:inline-block;
+  min-width:100px;
+  min-height:2em; 
+  transform: skew(-20deg);
+ 
+  a{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:999;
+    color:black;
+    transform: skew(5deg);
+    text-decoration:none;
+  }
+
+
+  &:hover{
+    transition: all 0.25s ease-in-out;
+    background:black;
+    &::before{
+      transition: all 0.25s ease-in-out;
+      z-index:0;
+      content: ' ';
+      position:absolute;
+      top:0;
+      left:0;
+      border-radius: 0 10px 0 10px !important;
+      width:100%;
+      height:100%;
+      background:white;
+    }
+  }
+`
+
+const hendleModal = ()=>{
+ alert('dupabiskupa')
+}
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Main | Karol Nowak" />
     <Back></Back>
     <Cont>
+      {/* <a><Circle onClick={hendleModal}>Tangible<br/> Projects</Circle></a> */}
       <Link to="/projects"><Circle>Tangible<br/> Projects</Circle></Link>
       <Link to="/web"><Circle>Digital<br/> Projects</Circle></Link>
-      <Link to="/cv"><Circle>CV</Circle></Link>
     </Cont>
   </Layout>
 )

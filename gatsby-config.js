@@ -16,11 +16,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `kn-porftolio`,
+        short_name: `KN_portfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -47,29 +48,21 @@ module.exports = {
           ],
         },
       },
-      {
-        resolve: "gatsby-plugin-google-tagmanager",
-        options: {
-          id: "GTM-N8PRTPS",
-          // Include GTM in development.
-          //
-          // Defaults to false meaning GTM will only be loaded in production.
-          includeInDevelopment: true,
-
-          // datalayer to be set before GTM is loaded
-          // should be an object or a function that is executed in the browser
-          //
-          // Defaults to null
-          defaultDataLayer: {
-            platform: "gatsby"
-          },
-          // Name of the event that is triggered
-          // on every Gatsby route change.
-          //
-          // Defaults to gatsby-route-change
-          routeChangeEventName: "gatsby-route-change",
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleTagManager: {
+          trackingId: 'GTM-N8PRTPS', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          dataLayerName: 'dataLayer', // default
         },
+        facebookPixel: {
+          pixelId: 'YOUR_FACEBOOK_PIXEL_ID'
+        },
+        // Defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
       },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

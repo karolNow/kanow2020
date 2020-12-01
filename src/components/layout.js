@@ -8,56 +8,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import {styled, createGlobalStyle} from "styled-components"
+import CookieConsent from 'react-cookie-consent'
+
 
 import Header from "./header"
+import Footer from "./footer"
+import GlobalStyle from './GlobalStyles'
 import "./layout.css"
 
-const GlobalStyle = createGlobalStyle`
-  *, *::before, *::after{
-    box-sizing: border-box;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6{
-    font-family: 'DM Serif Display', serif;
-  }
-
-  @keyframes starmove {
-	from {
-		background-position-x: 5%;
-	}
-	to { 
-		background-position-x: 1300%;
-	}
-  }
-
-  a {
-      color:black;
-      text-decoration:none;
-      &:hover{
-        text-decoration:underline;
-      }
-      &:visited{
-        color: #3c3b3b;
-      }
-      &:focus{
-        color: #3c3b3b;
-      }
-    }
-
-    footer{
-      position:relative;
-      z-index:5;
-      p{
-        margin:0;
-      }
-    }
-`
 
 
 const Layout = ({ children }) => {
@@ -88,20 +46,14 @@ const Layout = ({ children }) => {
           padding:`1em`,
           }}>{children}
         </main>
-        <footer style={{ 
-          display:`flex`,
-          flexDirection:`row`,
-          padding:`0 1em`,
-          justifyContent:`space-between`,
-          }}>
-          <a>IN</a>
-          <a>GH</a>
-          <a>FB</a>
-          <p>
-          © {new Date().getFullYear()}
-          <Link to="/about"> Karol Nowak</Link>
-          </p>
-        </footer>
+        <Footer/>
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-tagmanager">
+          This site uses cookies ...
+          </CookieConsent>
       </div>
     </>
   )
