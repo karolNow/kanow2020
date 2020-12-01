@@ -29,25 +29,33 @@ module.exports = {
         icon: `src/images/KNLOGO.png`, // This path is relative to the root of the site.
       },
     }, 
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+
+        {
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [{
-              family: `Lato`,
-              subsets: [`latin-ext`],
-              variants: [`300`,`400`],
+        fonts: {
+          google: [
+            {
+              family: 'Lato',
+              subsets: ['latin-ext'],
+              variants: ['300','400'],
             },
             {
-              family: `Open Sans`,
-              variants: [`400`, `700`]
+              family: 'Open Sans',
+              variants: ['400', '700']
             }, 
             {
-              family: `DM Serif Display`,
-              variants: [`400`]
+              family: 'DM Serif Display',
+              variants: ['400']
             }, 
           ],
         },
+        //formats: ['woff2', 'woff'],
+        //useMinify: true,
+        usePreload: true,
+        //usePreconnect: false,
       },
+    },
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
