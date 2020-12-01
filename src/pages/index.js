@@ -68,8 +68,8 @@ const Circle = styled.section`
  min-height:170px;
  max-width:400px;
  max-height:400px;
- width:25vw;
- height:25vw;
+ width: 40vh;
+ height: 40vh;
  background: radial-gradient(black 60%, transparent 70%, transparent 100%);
  border: solid 1px transparent;
  border-radius: 100%;
