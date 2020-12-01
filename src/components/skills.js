@@ -13,12 +13,13 @@ const Skills = ({ siteTitle }) => (
     <hr/>
     <Skille className="skills">
       <ul>
-        <li>Projektowanie/ Programowanie witryn internetowych</li>
-        <li>Projektowanie doświadczen użytkownika</li>
-        <li>Projektowanie szkiców roboczych oraz makiet</li>
-        <li>Projektowanie interfejsów użytkownika</li>
-        <li>Projektowanie interakcji</li>
-        <li>Interakcja człowiek - komputer</li>
+        <li>Front-end code</li>
+        <li>User Experience Planning</li>
+        <li>Ineraction design</li>
+        <li>Information Architecture</li>
+        <li>Mock-ups and quick sketches</li>
+        <li>Human computer interaction design</li>
+        <li>Basic Analytics (GA, Heatmaps, Recordings)</li>
       </ul>
     </Skille>
   </section>

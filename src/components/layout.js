@@ -49,10 +49,13 @@ const Layout = ({ children }) => {
         <Footer/>
         <CookieConsent
           location="bottom"
-          buttonText="Accept"
+          buttonText="Ok I accepy"
+          style={{ background: "black" , color:"white" }}
+          buttonStyle={{ backgroundColor: "white", color: "black", fontSize: "13px" }}
+          expires={150}
           declineButtonText="Decline"
           cookieName="gatsby-gdpr-google-tagmanager">
-          This site uses cookies ...
+          Hey! I use cookies to, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
           </CookieConsent>
       </div>
     </>

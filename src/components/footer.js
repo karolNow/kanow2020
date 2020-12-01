@@ -16,9 +16,9 @@ const Ftr = styled.footer`
 
 const Footer = () =>(
     <Ftr>
-    <a className="aftr">IN</a>
-    <a className="aftr">GH</a>
-    <a className="aftr">FB</a>
+    <a href="https://github.com/karolNow" target="_blank" className="aftr">IN</a>
+    <a href="https://github.com/karolNow" target="_blank" className="aftr">GH</a>
+    <a href="https://github.com/karolNow" target="_blank" className="aftr">FB</a>
     <p>
     © {new Date().getFullYear()}
     <Link to="/about"> Karol Nowak</Link>

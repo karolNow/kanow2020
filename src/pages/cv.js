@@ -8,6 +8,7 @@ import Technology from "../components/technology"
 import Education from "../components/education"
 import Communication from "../components/communication"
 import Passions from "../components/passions"
+import Consent from "../components/Consent"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Nav from "../components/nav"
@@ -38,6 +39,7 @@ const CvPage = () => (
     <Education></Education>
     <Communication></Communication>
     <Passions></Passions>
+    <Consent></Consent>
   </Layout>
 )
 

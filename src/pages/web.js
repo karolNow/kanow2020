@@ -1,10 +1,32 @@
 import React from "react"
-import { Link } from "gatsby"
-import KnHead from  '../images/KN_HEAD.jpg'
+import { WProjnk } from "gatsby"
 import Menu from '../components/GoBackMenu'
+import styled from 'styled-components'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+
+const Plist = styled.ul`
+  margin:1em;
+`
+
+const WProj = styled.li`
+  list-style:none;
+`
+
+const Anchor = styled.a`
+  display:block;
+  border: 1px solid black;
+  text-decoration: none;
+  padding:0.5em 1em;
+  margin-bottom:1em;
+  &:hover{
+    background-color: black;
+    color:white;
+    text-decoration:none;
+  }
+`
 
 const WebPage = () => (
   <Layout>
@@ -16,24 +38,29 @@ const WebPage = () => (
     </p>
     <div>
       <p>
-        Pages on which I have worked / worked:
+        Pages on which I have worked:
       </p>
-      <ul>
-       <li><a href="https://swiatkneippa.pl">swiatkneippa.pl</a> UX + development (custom template WP)</li> 
-       <li><a href="https://yokohama-online.pl/">yokohama-online.pl</a> UX + development</li> 
-       <li><a href="https://maglekam.pl/">maglekam.pl</a> UX + development (custom template WP)</li> 
-       <li><a href="https://sutrisept.pl/">sutrisept.pl</a> UX + development (custom template WP)</li> 
-       <li><a href="https://sutriheal.pl/">sutriheal.pl</a> (this is a copy of the one above with slight changes)</li> 
-       <li><a href="https://oczywistywybor.pl">oczywityswybor.pl</a> UX + development (custom template WP)</li> 
-       <li><a href="https://humanskillscenter.pl">humanskillscenter.pl</a> UX + development (custom template WP)</li> 
-       <li><a href="https://www.mollers.pl/">www.mollers.pl</a> (adaptation and corrections of the global WP + content management template)</li> 
-       <li><a href="https://www.colon.pl/">www.colon.pl</a> (adaptation and corrections of the global WP + content management template)</li> 
-      </ul>
+      <Plist>
+       <WProj><Anchor href="https://swiatkneippa.pl">swiatkneippa.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://yokohama-online.pl/">yokohama-online.pl | UX + development</Anchor></WProj>
+       <WProj><Anchor href="https://maglekam.pl/">maglekam.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://sutrisept.pl/">sutrisept.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://sutriheal.pl/">sutriheal.pl | (this is a copy of the one above with slight changes)</Anchor></WProj>
+       <WProj><Anchor href="https://oczywistywybor.pl">oczywityswybor.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://humanskillscenter.pl">humanskillscenter.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://www.mollers.pl/">www.mollers.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
+       <WProj><Anchor href="https://www.colon.pl/">www.colon.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
+      </Plist>
       <p>
-        For agency clients(Colon, Noble Health, Klar, Salvequick) I implement richcontents - simple html pages on ext.sys.Rossmann.Sample project(find out more tab):
-        https: //www.rossmann.pl/Produkt/Skora-wlosy-i-parańcie/Noble-Health-Class-A-Collagen-suplement-diety-zdrowa-piekna-skora-mocne-wlosy-i-patulcie-90- pcs, 135 589.9016
-        In addition, I was doing programming work on various clients ' websites, implementing custom plugins for global websites, CCS corrections, mailing, and customizing websites for RWD
-      </p>
+        For agency clients(Colon, Noble Health, Klar, Salvequick) I implement (design and develop) <b>Richcontents</b> - single pages (html/scss/js) on extisting Rossmann system.<br/>Sample projects:</p>
+        <Plist>
+        <WProj><Anchor href="https://www.rossmann.pl/Produkt/Skora-wlosy-i-paznokcie/Noble-Health-Class-A-Collagen-suplement-diety-zdrowa-piekna-skora-mocne-wlosy-i-paznokcie-90-szt,135589,9016">Noble-Health Richcontent</Anchor></WProj>
+        <WProj><Anchor href="https://www.rossmann.pl/Produkt/Srodki-uniwersalne/Klar-uniwersalny-plyn-do-czyszczenia-koniczyna-750-ml,282214,8332">Klar Richcontent</Anchor></WProj>
+        <WProj><Anchor href="https://www.rossmann.pl/Produkt/Plastry-i-opatrunki/Salvequick-Transparent-przezroczysty-plaster-odporny-na-brud-i-wode-20-szt,14290,8467">Salveqick Richcontent</Anchor></WProj>
+        </Plist>
+        <p>
+          In addition, I was doing programming work on various clients ' websites, implementing custom plugins for global websites, CCS corrections, mailing, and customizing websites for RWD
+        </p>
     </div>
     </div>
     <Menu/>

@@ -40,24 +40,31 @@ const GlobalStyle = createGlobalStyle`
 
   .aftr {
       display:inline;
+      width:32px;
+      height:32px;
       border-radius:50%;
-      width:30px;
-      height:30px;
+      border:solid 1px black;
       text-align:center;
       vertical-align: middle;
       padding:1px;
-      background-color:black;
+      background-color:white;
       cursor:cell;
-      color:white;
+      color:black;
       text-decoration:none;
       &:hover{
-        text-decoration:underline;
+        text-decoration:none;
+        background-color:black;
+        color:white;
       }
       &:visited{
-        color: #3c3b3b;
+        color:black;
+        background-color:grey;
+        border:solid 1px grey;
       }
       &:focus{
-        color: #3c3b3b;
+        color:black;
+        background-color:grey;
+        border:solid 1px grey;
       }
     }
 

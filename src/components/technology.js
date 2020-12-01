@@ -53,21 +53,29 @@ const Technology = ({ siteTitle }) => (
         {/* <img src="../assets/wordpress.png" alt="wordpress logo"/> */}
         <h3>WORDPRESS,</h3>
       </div>
-      <div className="skill" id="wordpress">
+      <div className="skill" id="GATSBY">
         {/* <img src="../assets/wordpress.png" alt="wordpress logo"/> */}
-        <h3>GATSBY,</h3>
+        <h3>GATSBYJS,</h3>
       </div>
-      <div className="skill" id="adobe">
+      <div className="skill" id="XD">
         {/* <img src="../assets/adobe.png" alt="adobe logo"/> */}
         <h3>ADOBE XD,</h3>
       </div>
-      <div className="skill" id="adobe">
+      <div className="skill" id="PHOTOSHOP">
         {/* <img src="../assets/adobe.png" alt="adobe logo"/> */}
         <h3>PHOTOSHOP,</h3>
       </div>
-      <div className="skill" id="adobe">
+      <div className="skill" id="ILLUSTRATOR">
         {/* <img src="../assets/adobe.png" alt="adobe logo"/> */}
         <h3>ILLUSTRATOR</h3>
+      </div>
+      <div className="skill" id="git">
+        {/* <img src="../assets/adobe.png" alt="adobe logo"/> */}
+        <h3>GIT</h3>
+      </div>
+      <div className="skill" id="github">
+        {/* <img src="../assets/adobe.png" alt="adobe logo"/> */}
+        <h3>GITHUB</h3>
       </div>
     </Tech>
   </section>

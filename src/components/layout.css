@@ -639,14 +639,32 @@ pre tt:after {
     line-height: 80%;
   }
   hr{
-    height: 1px;
+    height: 2px;
   }
   .no-print,
   .no-print * {
     display: none !important;
   }
+  .firma{
+    margin-bottom: 30px !important;
+  }
+
+  .glowa{
+    margin-top: 25px !important;
+  }
 
   .links{
     line-height: 17px;
+  }
+
+  footer{
+    display: none !important;
+  }
+
+  .consent{
+    display: block;
+  }
+  .consent p {
+    line-height: 1.3em;
   }
 }

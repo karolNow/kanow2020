@@ -25,20 +25,30 @@ const Experience = ({ siteTitle }) => (
     <h1><span>Experience</span></h1>
     <hr />
     <div className="firma f-name">
-        <h3>2018 – acctual</h3>
-        <h2>WEB Designer/Front-end <br/>in: Agencja Gordo</h2>
+        <h2>Agencja Gordo</h2>
+        <h3>2018 – acctual  (full time)</h3>
+        <h2>WEB Designer/Front-end</h2>
         <ul>
-            <li>Architecture and UX design of web aplications.</li>
-            <li>Maintenance and administration of agency clients websites.</li>
-            <li>Wordpress theme development, CMS architecture ajustments and content administration.</li>
-            <li>Third parties solutions implemrntation and support - Google Analitics, Hotjar, Pixel etc.</li>
+            <li>Information architecture and UX design of web aplications.</li>
+            <li>Web development - blogs, landing pages</li>
+            <li>Wordpress themes development</li>
+            <li>CMS architecture ajustments and content administration.</li>
+            <li>Third parties solutions implemrntation and analitics - Google Analytics, Hotjar, Pixel etc.</li>
             <li>User testing</li>
             <li>CMS systems usage training</li>
+            <li>Maintenance and administration of agency clients websites.</li>
         </ul>
     </div>
     <div className="firma f-name">
-        <h3>2019 – acctual</h3>
-        <h2>Creative Coding - Academic assistant<br/>in: School of Form (SWPS University)</h2>
+        <h2>School of Form (SWPS University)</h2>
+        <h3>2020 – acctual (part time)</h3>
+        <h2>Lecturer<br/></h2>
+        <ul>
+          <li>Teaching students creative coding using arduino and processing</li>
+          <li>Teaching digital fabrication - 3d printing, laser cutting, usage of Fusion360</li>
+        </ul>
+        <h3>2019 – acctual (part time)</h3>
+        <h2>Academic assistant - Creative Coding</h2>
         <ul>
           <li>Assistance in teaching students</li>
           <li>Administration and Teaching 3d printing, laser cutting, and other use of workshop devices</li>
@@ -46,8 +56,9 @@ const Experience = ({ siteTitle }) => (
         </ul>
     </div>
     <div className="firma f-name">
+        <h2>SUM Architekci Krajobrazu SP. z o.o.</h2>
         <h3>2016 – 2018</h3>
-        <h2>Co-founder & designer <br/>in: SUM Architekci Karjobrazu SP. z o.o. </h2>
+        <h2>Co-founder & designer</h2>
         <ul>
           <li>Company website development </li>
           <li>WordPress implementation </li>
@@ -57,8 +68,9 @@ const Experience = ({ siteTitle }) => (
         </ul>
     </div>
     <div className="firma f-name">
+        <h2>In & out Architekci krajobrazu</h2>
         <h3>2014 – 2016</h3>
-        <h2>Landscape Architect <br/>in: In & out Architekci krajobrazu</h2>
+        <h2>Landscape Architect</h2>
           <ul>
             <li>Design landscape architecture </li>
             <li>Maintenance practices and technical specifications development</li>
