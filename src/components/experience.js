@@ -33,7 +33,7 @@ const Experience = ({ siteTitle }) => (
             <li>Web development - blogs, landing pages</li>
             <li>Wordpress themes development</li>
             <li>CMS architecture ajustments and content administration.</li>
-            <li>Third parties solutions implemrntation and analitics - Google Analytics, Hotjar, Pixel etc.</li>
+            <li>Third parties solutions implemrntation and analytics - Google Analytics, Hotjar, Pixel etc.</li>
             <li>User testing</li>
             <li>CMS systems usage training</li>
             <li>Maintenance and administration of agency clients websites.</li>
