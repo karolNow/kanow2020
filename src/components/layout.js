@@ -49,9 +49,9 @@ const Layout = ({ children }) => {
         <Footer/>
         <CookieConsent
           location="bottom"
-          buttonText="Ok I accepy"
+          buttonText="Ok, I accept ✌️"
           style={{ background: "black" , color:"white" }}
-          buttonStyle={{ backgroundColor: "white", color: "black", fontSize: "13px" }}
+          buttonStyle={{ backgroundColor: "white", color: "black", fontSize: "16px" }}
           expires={150}
           declineButtonText="Decline"
           cookieName="gatsby-gdpr-google-tagmanager">
