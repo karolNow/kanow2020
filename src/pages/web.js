@@ -6,6 +6,13 @@ import styled from 'styled-components'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Orcla from '../images/orkla.png'
+import Kneipp from '../images/kneipp.gif'
+import Lekam from '../images/lekam.png'
+import Urgo from '../images/urgo.png'
+import Verco from '../images/verco.png'
+import Yokohama from '../images/yokohama.jpg'
+
 
 const Plist = styled.ul`
   margin:1em;
@@ -27,19 +34,41 @@ const Anchor = styled.a`
     text-decoration:none;
   }
 `
+const Lgroup= styled.div`
+  display:flex;
+  flex-direcition:row;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-evenly;
+  img{
+    max-width:100px;
+    height:auto;
+  }
+`
 
 const WebPage = () => (
   <Layout>
-    <SEO title="Web work" />
+    <SEO title="Digital/ Web projects" />
     <div>
-    <h1>Web/Digital Projects</h1>
+    <h1>Digital Projects</h1>
     <p>
-      I have worked with brands such as Orcla Care, Lekam, Verco, Yokohama, Kneipp, implementing website designs
-      for internal brands based mainly on technologies such as: php, scss / css, html, js / jquery. 
+      I have worked with brands such as:
+    </p>
+    <Lgroup>
+      <img src={Orcla} alt="logo orcla"/>
+      <img src={Verco} alt="logo Verco"/>
+      <img src={Yokohama} alt="logo Yokohama"/>
+      <img src={Kneipp} alt="logo Kneipp"/>
+      <img src={Lekam} alt="logo Lekam"/>
+      <img src={Urgo} alt="logo Lekam"/>
+    </Lgroup>
+    <p> 
+       Implementing websites for brands based mainly on technologies such as:         
+       <br/><b>PHP, SCSS/CSS, HTML5, JS/JQuery, GATSBY</b>
     </p>
     <div>
       <p>
-        Web pages I made:
+        Web pages I have been working on:
       </p>
       <Plist>
        <WProj><Anchor href="https://swiatkneippa.pl">swiatkneippa.pl | UX + development (custom template WP)</Anchor></WProj>
@@ -47,10 +76,11 @@ const WebPage = () => (
        <WProj><Anchor href="https://maglekam.pl/">maglekam.pl | UX + development (custom template WP)</Anchor></WProj>
        <WProj><Anchor href="https://sutrisept.pl/">sutrisept.pl | UX + development (custom template WP)</Anchor></WProj>
        <WProj><Anchor href="https://sutriheal.pl/">sutriheal.pl | (this is a copy of the one above with slight changes)</Anchor></WProj>
-       <WProj><Anchor href="https://oczywistywybor.pl">oczywityswybor.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://oczywistywybor.pl">oczywistywybor.pl | UX + development (custom template WP)</Anchor></WProj>
        <WProj><Anchor href="https://humanskillscenter.pl">humanskillscenter.pl | UX + development (custom template WP)</Anchor></WProj>
        <WProj><Anchor href="https://www.komfortum.pl/">www.komfortum.pl | LP development, made in gatsby</Anchor></WProj>
-       <WProj><Anchor href="https://www.premierjanolszewski">www.komfortum.pl | LP development</Anchor></WProj>
+       <WProj><Anchor href="https://www.manusan.pl/">www.manusan.pl | LP development</Anchor></WProj>
+       <WProj><Anchor href="https://www.premierjanolszewski">www.premierjanolszewski.pl | LP development</Anchor></WProj>
        <WProj><Anchor href="https://www.mollers.pl/">www.mollers.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
        <WProj><Anchor href="https://www.colon.pl/">www.colon.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
       </Plist>
