@@ -87,6 +87,31 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none;
       }
     }
+
+    .gb-button {
+      cursor:cell;
+      color: white;
+      background-color: black;
+      text-decoration:none;
+      border:solid 1px black;
+      padding: 5px 10px;
+      &:visited{
+        color:white;
+      }
+      &:focus{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+      }
+      &:hover{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+      }
+      &::before{
+        content:'⟵ ';
+      }
+    }
 `
 
 export default GlobalStyle;

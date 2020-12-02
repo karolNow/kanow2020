@@ -16,7 +16,7 @@ const Menu = styled.div`
 function Gbm() {
     return(
     <Menu>
-        <Link to="/" className="a-button">Go back to the homepage</Link>
+        <Link to="/" className="gb-button">Go back to the homepage</Link>
         <Foo></Foo>
     </Menu>
     )
