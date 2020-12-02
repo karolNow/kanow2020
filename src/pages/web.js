@@ -30,15 +30,16 @@ const Anchor = styled.a`
 
 const WebPage = () => (
   <Layout>
-    <SEO title="About page" />
+    <SEO title="Web work" />
     <div>
+    <h1>Web/Digital Projects</h1>
     <p>
       I have worked with brands such as Orcla Care, Lekam, Verco, Yokohama, Kneipp, implementing website designs
       for internal brands based mainly on technologies such as: php, scss / css, html, js / jquery. 
     </p>
     <div>
       <p>
-        Pages on which I have worked:
+        Web pages I made:
       </p>
       <Plist>
        <WProj><Anchor href="https://swiatkneippa.pl">swiatkneippa.pl | UX + development (custom template WP)</Anchor></WProj>
@@ -48,6 +49,8 @@ const WebPage = () => (
        <WProj><Anchor href="https://sutriheal.pl/">sutriheal.pl | (this is a copy of the one above with slight changes)</Anchor></WProj>
        <WProj><Anchor href="https://oczywistywybor.pl">oczywityswybor.pl | UX + development (custom template WP)</Anchor></WProj>
        <WProj><Anchor href="https://humanskillscenter.pl">humanskillscenter.pl | UX + development (custom template WP)</Anchor></WProj>
+       <WProj><Anchor href="https://www.komfortum.pl/">www.komfortum.pl | LP development, made in gatsby</Anchor></WProj>
+       <WProj><Anchor href="https://www.premierjanolszewski">www.komfortum.pl | LP development</Anchor></WProj>
        <WProj><Anchor href="https://www.mollers.pl/">www.mollers.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
        <WProj><Anchor href="https://www.colon.pl/">www.colon.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
       </Plist>
@@ -59,7 +62,7 @@ const WebPage = () => (
         <WProj><Anchor href="https://www.rossmann.pl/Produkt/Plastry-i-opatrunki/Salvequick-Transparent-przezroczysty-plaster-odporny-na-brud-i-wode-20-szt,14290,8467">Salveqick Richcontent</Anchor></WProj>
         </Plist>
         <p>
-          In addition, I was doing programming work on various clients ' websites, implementing custom plugins for global websites, CCS corrections, mailing, and customizing websites for RWD
+          In addition, I was doing programming work on various clients websites, implementing custom plugins for global websites, CCS corrections, mailing, and customizing websites for RWD
         </p>
     </div>
     </div>

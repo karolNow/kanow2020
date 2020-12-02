@@ -48,7 +48,7 @@ const Exibits = styled.div`
 
 const Instalations = () => (
   <ModalLayout>
-    <SEO title="About page" />
+    <SEO title="Tangible projects" />
         <Projects className="projects">
             <h1 className="ud-line">Tangible projects I made or was participant</h1>
             <Project className="project">
