@@ -78,9 +78,9 @@ const WebPage = () => (
        <WProj><Anchor href="https://sutriheal.pl/">sutriheal.pl | (this is a copy of the one above with slight changes)</Anchor></WProj>
        <WProj><Anchor href="https://oczywistywybor.pl">oczywistywybor.pl | UX + development (custom template WP)</Anchor></WProj>
        <WProj><Anchor href="https://humanskillscenter.pl">humanskillscenter.pl | UX + development (custom template WP)</Anchor></WProj>
-       <WProj><Anchor href="https://www.komfortum.pl/">www.komfortum.pl | LP development, made in gatsby</Anchor></WProj>
+       <WProj><Anchor href="http://www.komfortum.pl/">www.komfortum.pl | LP development, made in gatsby</Anchor></WProj>
        <WProj><Anchor href="https://www.manusan.pl/">www.manusan.pl | LP development</Anchor></WProj>
-       <WProj><Anchor href="https://www.premierjanolszewski">www.premierjanolszewski.pl | LP development</Anchor></WProj>
+       <WProj><Anchor href="https://www.premierjanolszewski.pl">www.premierjanolszewski.pl | LP development</Anchor></WProj>
        <WProj><Anchor href="https://www.mollers.pl/">www.mollers.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
        <WProj><Anchor href="https://www.colon.pl/">www.colon.pl | (adaptation and corrections of the global WP + content management template)</Anchor></WProj>
       </Plist>
