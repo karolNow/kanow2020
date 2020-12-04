@@ -39,10 +39,13 @@ const Projects = styled.div`
     flex-direction:column;
     align-items:center;
     max-width:960px;
-    margin:100px auto;
+    margin:3rem auto;
     h1{
       font-family: 'DM Serif Display';
     }
+    ${Media.sm`
+        margin:3rem auto;
+    `}
 `
 const Exibits = styled.div`
     display: flex;
