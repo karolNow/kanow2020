@@ -54,7 +54,6 @@ const Cont = styled.div`
       color:white;
     }
   }
-}
 `
 
 const Circle = styled.section`

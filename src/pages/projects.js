@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import {Media} from "../media/media"
 
 import UslessBoxes from '../images/uslessbox.jpg'
 import Empatyphyte from '../images/empatyphyte.jpg'
@@ -27,6 +27,12 @@ const Project = styled.div`
     p{
         margin-bottom:0.5em;
     }
+    ${Media.sm`
+        h2,p,a{
+            padding: 0 1rem;
+        }
+    `
+    }
 `
 const Projects = styled.div`
     display: flex;
@@ -44,13 +50,17 @@ const Exibits = styled.div`
     align-items:flex-start;
     max-width:960px;
     margin:1em auto 2em auto;
+
+    ${Media.sm`
+        padding: 0 1rem;
+    `}
 `
 
 const Instalations = () => (
   <ModalLayout>
     <SEO title="Tangible projects" />
         <Projects className="projects">
-            <h1 className="ud-line">Tangible projects I made or was participant</h1>
+            <h1 style={{padding:` 0 1rem`}} className="ud-line">Tangible projects I made or was participant</h1>
             <Project className="project">
                 <h2 className="project-title">USLESS MACHINES</h2>
                 <img src={UslessBoxes} alt="usles boxes"/>
@@ -75,7 +85,7 @@ const Instalations = () => (
                 <p className="project-desc">The Useless Machine is a device that has a function but no immediate purpose. You can look at it philosophically: starting from a fun engineering hack or intellectual joke, show that devices that do not have functions or do not work properly are not considered useless machines. The most famous useless machines are inspired by a design by MIT professor and artificial intelligence pioneer Marvin Minsky, in which the only function of the device is to turn itself off by using its own switch. Karol Nowak's interpretation of Marvin Minsky's design adds reflection on the flattening of interactions with contemporary devices. Once upon a time, sensually rich interactions were dominated by screens and smooth, flat, touchable but poor-to-touch surfaces.</p>
             </Project>
             <Project className="project">
-                <h2 className="project-title">EMPATYPHYTE {'{ Empatyfit }'}</h2>
+                <h2 className="project-title">EMPATYPHYTE<br/> {'{ Empatyfit }'}</h2>
                 <img src={Empatyphyte} alt="empatyphyte"/>
                 {/* <p className="project-desc">Dlaczego roślinność traktowania jest tak przedmiotowo? Próbą odpowiedzi na to
                     pytanie jest instalacja Empatyphyte, która umożliwiała widzom wejście w kontakt z rośliną. Aktorka

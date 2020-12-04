@@ -39,14 +39,16 @@ const GlobalStyle = createGlobalStyle`
     }
 
   .aftr {
-      display:inline;
+      display:flex;
+      padding:1px;
       width:32px;
       height:32px;
       border-radius:50%;
       border:solid 1px black;
       text-align:center;
       vertical-align: middle;
-      padding:1px;
+      justify-content:center;
+      align-content:center;
       background-color:white;
       cursor:cell;
       color:black;
@@ -112,6 +114,7 @@ const GlobalStyle = createGlobalStyle`
         content:'⟵ ';
       }
     }
+
 `
 
 export default GlobalStyle;
