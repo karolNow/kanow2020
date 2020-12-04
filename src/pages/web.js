@@ -1,7 +1,7 @@
 import React from "react"
-import { WProjnk } from "gatsby"
 import Menu from '../components/GoBackMenu'
 import styled from 'styled-components'
+import {Media} from "../media/media"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,6 +13,18 @@ import Urgo from '../images/urgo.png'
 import Verco from '../images/verco.png'
 import Yokohama from '../images/yokohama.jpg'
 
+const Web = styled.div`
+  ${Media.sm`
+    h1{
+      padding: 3rem 1rem 1rem 1rem;
+    }
+
+    p{
+      padding:0 1rem;
+    }
+  `
+}
+`
 
 const Plist = styled.ul`
   margin:1em;
@@ -44,12 +56,15 @@ const Lgroup= styled.div`
     max-width:100px;
     height:auto;
   }
+  ${Media.sm`
+    padding: 1rem;
+  `}
 `
 
 const WebPage = () => (
   <Layout>
     <SEO title="Digital/ Web projects" />
-    <div>
+    <Web>
     <h1>Digital Projects</h1>
     <p>
       I have worked with brands such as:
@@ -66,7 +81,6 @@ const WebPage = () => (
        Implementing websites for brands based mainly on technologies such as:         
        <br/><b>PHP, SCSS/CSS, HTML5, JS/JQuery, GATSBY</b>
     </p>
-    <div>
       <p>
         Web pages I have been working on:
       </p>
@@ -94,8 +108,7 @@ const WebPage = () => (
         <p>
           In addition, I was doing programming work on various clients websites, implementing custom plugins for global websites, CCS corrections, mailing, and customizing websites for RWD
         </p>
-    </div>
-    </div>
+    </Web>
     <Menu/>
   </Layout>
 )

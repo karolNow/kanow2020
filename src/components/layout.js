@@ -23,7 +23,7 @@ const All = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 0 1em;
-  height: 100%;
+  height: 80%;
 
   ${Media.sm`
     padding: 0 0em;
