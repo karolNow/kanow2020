@@ -30,7 +30,7 @@ const Cont = styled.div`
   justify-content:center;
   align-items:center;
   a{
-    margin:1em;
+    margin: 0 1rem 1rem 1rem;
     border-radius:50%;
     font-family: 'DM Serif Display';
     color: white;
@@ -54,6 +54,12 @@ const Cont = styled.div`
       color:white;
     }
   }
+
+
+ @media screen and (max-width: 767px) and (orientation: landscape){
+    flex-direction:row;
+ }
+
 `
 
 const Circle = styled.section`
