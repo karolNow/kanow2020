@@ -10,7 +10,7 @@ const Foo = () => {
   }
   else if(url==='/web' || url==='/web/'){
     return (
-        <a href='/projects' className="a-button">Tengible projects</a>
+        <a href='/projects' className="a-button">Tangible projects</a>
     );
   }
   else{
