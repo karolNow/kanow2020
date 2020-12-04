@@ -47,8 +47,9 @@ const GlobalStyle = createGlobalStyle`
       border:solid 1px black;
       text-align:center;
       vertical-align: middle;
-      justify-content:center;
-      align-content:center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
       background-color:white;
       cursor:cell;
       color:black;
