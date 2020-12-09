@@ -41,7 +41,7 @@ const Cont = styled.div`
       color: black !important;
       text-decoration:none;
       section{
-        cursor:pointer;
+        cursor:cell;
         background: radial-gradient(white 60%, transparent 70%,transparent 100%);
         box-shadow: none;
         border-radius: 50%;
@@ -82,6 +82,18 @@ const Circle = styled.section`
  padding:3px;
  &:hover{
    box-shadow: none;
+     h2{
+    -webkit-text-stroke: 1px black;
+    color: white;
+  }
+ }
+
+  h2{
+   margin:0;
+   font-weight:normal;
+   -webkit-text-stroke: 1px white;
+    color: black;
+    letter-spacing: 2px;
  }
 `
 const But = styled.button`
@@ -134,9 +146,10 @@ const IndexPage = () => (
     <SEO title="Main | Karol Nowak" />
     <Back></Back>
     <Cont>
+      <h1 style={{display:'none'}}>Karol Nowak Projects</h1>
       {/* <a><Circle onClick={hendleModal}>Tangible<br/> Projects</Circle></a> */}
-      <Link to="/projects"><Circle>Tangible<br/> Projects</Circle></Link>
-      <Link to="/web"><Circle>Digital<br/> Projects</Circle></Link>
+      <Link to="/projects"><Circle><h2>Tangible<br/> Projects</h2></Circle></Link>
+      <Link to="/web"><Circle><h2>Digital<br/> Projects</h2></Circle></Link>
     </Cont>
   </Layout>
 )
