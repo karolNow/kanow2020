@@ -3,6 +3,6 @@ export const breakpoints = {
   sm: "768px",
   md: "992px",
   lg: "1200px",
-  cv: "1300px",
+  cv: "1430px",
 }
 
