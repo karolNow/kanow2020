@@ -52,7 +52,7 @@ const Experience = ({ siteTitle }) => (
         <ul>
           <li>Assistance in teaching students</li>
           <li>Administration and Teaching 3d printing, laser cutting, and other use of workshop devices</li>
-          <li>Creating media art exhibitions, events and workshops</li>
+          <li>Creating media art exhibitions, events, and workshops</li>
         </ul>
     </div>
     <div className="firma f-name">
@@ -62,9 +62,9 @@ const Experience = ({ siteTitle }) => (
         <ul>
           <li>Company website development </li>
           <li>WordPress implementation </li>
-          <li>Google analytics, hotjar along with administration of the website</li>
+          <li>Google analytics, Hotjar along with administration of the website</li>
           <li>Development of graphic designs for the website</li>
-          <li>Design & Project management in landscape architecture field</li>
+          <li>Design & Project management in the landscape architecture field</li>
         </ul>
     </div>
     <div className="firma f-name">
@@ -75,7 +75,7 @@ const Experience = ({ siteTitle }) => (
             <li>Design landscape architecture </li>
             <li>Maintenance practices and technical specifications development</li>
             <li>Investment costs execution </li>
-            <li>Graphic designs in form of: visualizations, posters and multimedia presentations</li>
+            <li>Graphic designs in form of visualizations, posters, and multimedia presentations</li>
           </ul>
     </div>
     </Exp>
