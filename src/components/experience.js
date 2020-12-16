@@ -27,7 +27,7 @@ const Experience = ({ siteTitle }) => (
     <div className="firma f-name">
         <h2>Agencja Gordo</h2>
         <h3>2018 – actual  (full-time)</h3>
-        <h2>WEB Designer/Front-end</h2>
+        <h2>WEB Designer/ Front-end</h2>
         <ul>
             <li>Information architecture and UX design of web applications.</li>
             <li>Web development - blogs, landing pages</li>
@@ -62,7 +62,7 @@ const Experience = ({ siteTitle }) => (
         <ul>
           <li>Company website development </li>
           <li>WordPress implementation </li>
-          <li>Google analytics, Hotjar along with administration of the website</li>
+          <li>Google Analytics, Hotjar along with administration of the website</li>
           <li>Development of graphic designs for the website</li>
           <li>Design & Project management in the landscape architecture field</li>
         </ul>
