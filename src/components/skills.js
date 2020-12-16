@@ -15,10 +15,10 @@ const Skills = ({ siteTitle }) => (
       <ul>
         <li>Front-end code</li>
         <li>User Experience Planning</li>
-        <li>Ineraction design</li>
+        <li>Interaction design</li>
         <li>Information Architecture</li>
         <li>Mock-ups and quick sketches</li>
-        <li>Human computer interaction design</li>
+        <li>Human-computer interaction design</li>
         <li>Basic Analytics (GA, Heatmaps, Recordings)</li>
       </ul>
     </Skille>

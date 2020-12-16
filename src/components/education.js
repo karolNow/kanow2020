@@ -23,7 +23,7 @@ const Education = ({ siteTitle }) => (
     </div>
     <div className="school">
       <h2>Landscape Architecture 2011-2016</h2>
-      <p>ENGEENER & MASTER DEGREE</p>
+      <p>ENGINEER & MASTER DEGREE</p>
       <p>SGGW Warsaw</p>
     </div>
   </Edu>

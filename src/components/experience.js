@@ -26,28 +26,28 @@ const Experience = ({ siteTitle }) => (
     <hr />
     <div className="firma f-name">
         <h2>Agencja Gordo</h2>
-        <h3>2018 – acctual  (full time)</h3>
+        <h3>2018 – actual  (full-time)</h3>
         <h2>WEB Designer/Front-end</h2>
         <ul>
-            <li>Information architecture and UX design of web aplications.</li>
+            <li>Information architecture and UX design of web applications.</li>
             <li>Web development - blogs, landing pages</li>
-            <li>Wordpress themes development</li>
-            <li>CMS architecture ajustments and content administration.</li>
-            <li>Third parties solutions implemrntation and analytics - Google Analytics, Hotjar, Pixel etc.</li>
+            <li>WordPress themes development</li>
+            <li>CMS architecture adjustments, and content administration.</li>
+            <li>Third parties solutions implementation and analytics - Google Analytics, Hotjar, Pixel, etc.</li>
             <li>User testing</li>
             <li>CMS systems usage training</li>
-            <li>Maintenance and administration of agency clients websites.</li>
+            <li>Maintenance and administration of agency client's websites.</li>
         </ul>
     </div>
     <div className="firma f-name">
         <h2>School of Form (SWPS University)</h2>
-        <h3>2020 – acctual (part time)</h3>
+        <h3>2020 – actual (part-time)</h3>
         <h2>Lecturer<br/></h2>
         <ul>
-          <li>Teaching students creative coding using arduino and processing</li>
+          <li>Teaching students creative coding using Arduino and processing</li>
           <li>Teaching digital fabrication - 3d printing, laser cutting, usage of Fusion360</li>
         </ul>
-        <h3>2019 – acctual (part time)</h3>
+        <h3>2019 – actual (part-time)</h3>
         <h2>Academic assistant - Creative Coding</h2>
         <ul>
           <li>Assistance in teaching students</li>
