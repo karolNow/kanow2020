@@ -6,7 +6,7 @@
   "author": "Karol Nowak <hello.kanow@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
-    "gatsby": "^2.24.47",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.4.16",
     "gatsby-plugin-gdpr-cookies": "^1.0.7",
     "gatsby-plugin-google-tagmanager": "^2.3.14",
